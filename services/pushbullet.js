@@ -1,9 +1,11 @@
 var PushBullet = require('pushbullet')
 var pusher = new PushBullet(process.env.PUSHBULLET_ACCESS_TOKEN)
 
+const logger = require('./logging-service')
+
 const logErrorIfPresent = (error) => {
     if (error || '' != '') {
-        console.log(error)
+        logger.error(error)
     }
 }
 
