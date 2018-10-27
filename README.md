@@ -5,10 +5,10 @@ API built around Pushbullet for pushing notifications to devices
 Sample Request JSON
 {
     "authCode": "********",
-	  "deviceName": "David - Phone",
-	  "action": "pushLink",
-	  "linkName": "Pushbullet",
-	  "linkUrl": "https://docs.pushbullet.com",
-	  "linkBody": "Pushbullet Docs"
+    "deviceName": "David - Phone",
+    "action": "pushLink",
+    "linkName": "Pushbullet",
+    "linkUrl": "https://docs.pushbullet.com",
+    "linkBody": "Pushbullet Docs"
 }
 ```
